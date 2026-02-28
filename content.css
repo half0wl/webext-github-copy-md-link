@@ -1,0 +1,10 @@
+.copy-pr-markdown-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.copy-pr-markdown-btn.copied {
+  color: var(--fgColor-success, #1a7f37);
+  border-color: var(--borderColor-success-emphasis, #1a7f37);
+}

@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "github-copy-md-link",
+  "version": "1.0.0",
+  "description": "Adds a button to GitHub pull requests to copy the PR link as Markdown.",
+  "permissions": [
+    "clipboardWrite"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*/*/pull/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "webext-github-copy-md-link@ray.cat"
+    }
+  }
+}
