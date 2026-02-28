@@ -5,10 +5,16 @@ pull request pages. Clicking it copies the PR link as Markdown to your clipboard
 
 ![example](example.png)
 
+**Format:**
+
+```
+[<repo>/PR#<number> - <title>](<url>)
+```
+
 **Example output:**
 
 ```
-[PR#123 - Some pull request](https://github.com/half0wl/webext-github-copy-md-link/pull/123)
+[webext-github-copy-md-link/PR#123 - Some pull request](https://github.com/half0wl/webext-github-copy-md-link/pull/123)
 ```
 
 ## Install
