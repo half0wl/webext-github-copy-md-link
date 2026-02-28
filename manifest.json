@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "github-copy-md-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds a button to GitHub pull requests to copy the PR link as Markdown.",
   "permissions": [
     "clipboardWrite"
